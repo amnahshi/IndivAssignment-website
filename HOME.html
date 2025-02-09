@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HOME</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One|Dancing+Script">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* General Styles */
+body {
+  font-family: 'Fauna One', serif;
+  font-size: 16px;
+  background-color: lavenderblush;
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #FF69B4; /* Bright pink for a girly vibe */
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 26px;
+  color: #8B008B; /* Deep pink for contrast */
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+/* Header Styling */
+.header {
+  background-image: url("home page13.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #FFB6C1; /* Light pink for a girly touch */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #FF69B4;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Image Hover Effect */
+.container {
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container:hover .image {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.middle {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgba(255, 245, 238, 0.9); /* Peach Puff with transparency */
+  color: #333;
+  font-size: 18px;
+  font-family: 'Cinzel', serif;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Flamingo Animation */
+.flamingo {
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  width: 100px;
+  height: auto;
+  animation: flamingoMove 10s linear infinite;
+}
+
+@keyframes flamingoMove {
+  0% {
+    left: -200px;
+    top: 50%;
+    transform: rotate(0deg);
+  }
+  25% {
+    left: 25%;
+    top: 40%;
+    transform: rotate(15deg);
+  }
+  50% {
+    left: 50%;
+    top: 50%;
+    transform: rotate(0deg);
+  }
+  75% {
+    left: 75%;
+    top: 60%;
+    transform: rotate(-15deg);
+  }
+  100% {
+    left: 100%;
+    top: 50%;
+    transform: rotate(0deg);
+  }
+}
+
+/* Footer (Optional) */
+.footer {
+  background-color: #FFB6C1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.time-container {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* Deep pink for consistency */
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/ACER/Documents/UITM/SEM%205/IMD318/Indiv%20Assingment/HOME.html">HOME</a>
+  <a href="file:///C:/Users/ACER/Documents/UITM/SEM%205/IMD318/Indiv%20Assingment/BIODATA.html">BIODATA</a>
+  <a href="file:///C:/Users/ACER/Documents/UITM/SEM%205/IMD318/Indiv%20Assingment/EDUCATION.html">EDUCATION</a>
+  <a href="file:///C:/Users/ACER/Documents/UITM/SEM%205/IMD318/Indiv%20Assingment/ACHIEVEMENT.html">ACHIEVEMENT</a>
+  <a href="file:///C:/Users/ACER/Documents/UITM/SEM%205/IMD318/Indiv%20Assingment/MYGALLERY.html">GALLERY & CONTACT</a>
+</div>
+
+<!-- Headings Section -->
+<div>
+  <h1>Welcome to My Website!</h1>
+  <h2>Point at the picture</h2>
+</div>
+
+
+
+<center>
+<div class="container">
+  <img src="profile.am.jpg" alt="amnah" class="image" style="width:40%; height:auto;">
+  <div class="middle">
+    <div class="text">
+      Assalamualaikum and welcome to my website! My name is Siti Amnah, and I am currently in my last semester in Diploma of Information Management. The purpose of this website is part of my individual assignment. It is about the person I admired the most in my life. Let's visit and explore  more about the person I admired most!
+    </div>
+  </div>
+</div>
+</center>
+
+<!-- Flamingo Animation -->
+<img src="flamingo.png" alt="Flamingo" class="flamingo">
+
+<div class="footer">
+  <p>© 2024 Siti Amnah. All Rights Reserved.</p>
+
+
+<!-- Time Display -->
+<div class="time-container" id="time-container">
+  Current Time: <span id="current-time"></span>
+</div>
+</div>
+
+<script>
+function updateTime() {
+  const timeContainer = document.getElementById('current-time');
+  const now = new Date();
+  const timeString = now.toLocaleTimeString();
+  timeContainer.textContent = timeString;
+}
+
+// Update time every second
+setInterval(updateTime, 1000);
+
+// Initialize time on page load
+updateTime();
+</script>
+
+</body>
+</html>
